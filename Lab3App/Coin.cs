@@ -25,6 +25,7 @@ namespace Lab3App
         public void UpdateTotalValue(int v)
         {
             Board.TotalValue = Board.TotalValue + v;
+            Console.WriteLine("Total Value is updated to: "+Board.TotalValue);
         }
 
         public override void AddMe(List<Collectable> c)
